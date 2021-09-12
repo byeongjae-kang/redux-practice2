@@ -24,7 +24,7 @@ function App() {
         })
       );
       const response = await fetch(
-        "https://redux-practice2-default-rtdb.europe-west1.firebasedatabase.app/",
+        "https://redux-practice2-default-rtdb.europe-west1.firebasedatabase.app/cart.json",
         {
           method: "PUT",
           body: JSON.stringify(cart)
